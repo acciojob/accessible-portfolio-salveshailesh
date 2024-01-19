@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+	<header>
+		<h1 role="heading">
+			Accessible Portfolio
+		</h1>
+	</header>
+	<nav role="navigation">
+		<ul>
+			<li><a #about>About Me</a></li>
+			<li><a #projects>Projects</a></li>
+			<li><a #contact>Contact</a></li>	
+		</ul>
+	</nav>
+	<section id="about">
+		<h2 role="heading">
+			About Me
+		</h2>
+		<img src="profile.jpg" alt="My Profile picture" role="img">
+		<p>
+			Hello! My name is Shailesh Salve I am passionate about creating accessible and inclusive websites.
+		This portfolio showcase my work and skills.	
+		</p>
+	</section>
+	<section id="projects">
+		<h2 role="heading">
+			Projects
+		</h2>	
+		<ul role="list">
+			<li role="listitem">Accessible Website 1 </li>
+			<li role="listitem">Inclusive Web App 2 </li>
+			<li role="listitem">Responsive DesignProject 3 </li>
+		</ul>
+	</section>
+	<section id="contact">
+		<h2 role="heading">Contact</h2>
+		<p>Feel Free to reach out to me:salve.shailesh14@gmail.com</p>
+		
+	</section>
+	
 </body>
 
 </html>
